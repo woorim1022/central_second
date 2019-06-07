@@ -1,0 +1,17 @@
+<head>
+<style type="text/css">
+    h1 {color : pink}
+    * {color : green}
+</style>
+</head>
+
+
+<h1>Wordcount Program</h1>
+
+<a href="{%url 'about'%}">ABOUT</a>
+
+<form action="{%url 'result'%}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br>
+    <button type="submit" class="btn btn-danger">Count!</button>
+</form>
